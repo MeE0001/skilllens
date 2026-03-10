@@ -46,13 +46,13 @@ def analyze_skills(user_skills, target_role):
 
     # Readiness level
     if score >= 80:
-        readiness = "🟢 Job Ready"
+        readiness = "Job Ready"
     elif score >= 60:
-        readiness = "🟡 Almost Ready"
+        readiness = "Almost Ready"
     elif score >= 40:
-        readiness = "🟠 Needs Improvement"
+        readiness = "Needs Improvement"
     else:
-        readiness = "🔴 Beginner"
+        readiness = "Beginner"
 
     return {
         "matched": matched,

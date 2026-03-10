@@ -26,7 +26,7 @@ if "selected_tags" not in st.session_state:
 if "last_role" not in st.session_state:
     st.session_state.last_role = None
 
-# Prefill from quiz if coming from home page
+# Prefill from quiz or explorer
 if "prefilled_skills" in st.session_state and st.session_state.prefilled_skills:
     for s in st.session_state.prefilled_skills:
         if s not in st.session_state.selected_tags:
@@ -34,6 +34,10 @@ if "prefilled_skills" in st.session_state and st.session_state.prefilled_skills:
     st.session_state.prefilled_skills = []
 
 roles = get_all_roles()
+
+# Prefill role from explorer
+prefill_role = st.session_state.pop("prefill_role", None)
+default_role_index = roles.index(prefill_role) if prefill_role and prefill_role in roles else 0
 
 # ── STEP 1: ROLE SELECTION ────────────────────────────
 st.markdown('<div style="font-size:0.68rem; font-weight:500; letter-spacing:3px; text-transform:uppercase; color:rgba(26,60,35,0.35); margin-bottom:1rem; font-family:Inter,sans-serif;">Step 01 — Choose a Role</div>', unsafe_allow_html=True)
@@ -44,6 +48,7 @@ with col_sel:
     selected_role = st.selectbox(
         "Role",
         roles,
+        index=default_role_index,
         label_visibility="collapsed",
         key="role_select"
     )
@@ -57,7 +62,6 @@ role_info = get_role_info(selected_role)
 with col_info:
     diff       = role_info["difficulty"]
     diff_color = "#2A6B3A" if diff == "Beginner" else "#7A5C10" if diff == "Intermediate" else "#7A2A2A"
-    diff_bg    = "rgba(42,107,58,0.07)" if diff == "Beginner" else "rgba(122,92,16,0.07)" if diff == "Intermediate" else "rgba(122,42,42,0.07)"
     n_skills   = len(role_info["required_skills"])
 
     st.markdown(f"""
@@ -105,19 +109,18 @@ extra_skills = [
 ]
 all_skills = list(dict.fromkeys(required_skills + [s for s in extra_skills if s not in required_skills]))
 
-# Required skills section
+# Required skills
 st.markdown('<div style="font-size:0.72rem; color:rgba(26,60,35,0.4); font-family:Inter,sans-serif; letter-spacing:0.5px; margin-bottom:0.8rem;">Required for this role:</div>', unsafe_allow_html=True)
 
 req_cols = st.columns(6, gap="small")
 for i, skill in enumerate(required_skills):
     with req_cols[i % 6]:
         is_selected = skill in st.session_state.selected_tags
-        btn_style   = "primary" if is_selected else "secondary"
         if st.button(
             f"✓ {skill}" if is_selected else skill,
             key=f"req_{skill}",
             use_container_width=True,
-            type=btn_style
+            type="primary" if is_selected else "secondary"
         ):
             if skill in st.session_state.selected_tags:
                 st.session_state.selected_tags.remove(skill)
@@ -172,7 +175,7 @@ if st.session_state.selected_tags:
     chips = "".join([
         f'<span style="background:#1A3C23; color:#EDEADE; padding:0.3rem 0.9rem; '
         f'border-radius:2px; font-size:0.78rem; font-family:Inter,sans-serif; '
-        f'display:inline-block; margin:0.2rem; cursor:pointer;">{s}</span>'
+        f'display:inline-block; margin:0.2rem;">{s}</span>'
         for s in st.session_state.selected_tags
     ])
     st.markdown(f"""
@@ -209,22 +212,23 @@ if analyze_clicked:
         with st.spinner("Analyzing..."):
             result = analyze_skills(st.session_state.selected_tags, selected_role)
 
+        # ── Save to session state (used by Dashboard ML + Roadmap) ──
         st.session_state.result      = result
         st.session_state.role        = selected_role
         st.session_state.user_skills = st.session_state.selected_tags.copy()
 
-        score = result["score"]
+        score       = result["score"]
         score_color = "#2A6B3A" if score >= 70 else "#7A5C10" if score >= 40 else "#7A2A2A"
 
         st.markdown(f"""
         <div style="background:rgba(255,255,255,0.5); border:1px solid rgba(26,60,35,0.1);
                     border-radius:3px; padding:2rem 2.5rem; margin-top:2rem;">
-            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.5rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center;
+                        flex-wrap:wrap; gap:1.5rem;">
                 <div>
                     <div style="font-size:0.62rem; letter-spacing:2px; text-transform:uppercase;
-                                color:rgba(26,60,35,0.35); font-family:Inter,sans-serif; margin-bottom:0.5rem;">
-                        Analysis Complete
-                    </div>
+                                color:rgba(26,60,35,0.35); font-family:Inter,sans-serif;
+                                margin-bottom:0.5rem;">Analysis Complete</div>
                     <div style="font-family:'Fraunces',serif; font-size:1.5rem; font-weight:600;
                                 color:#1A3C23; margin-bottom:0.3rem;">{selected_role}</div>
                     <div style="font-size:0.85rem; color:rgba(26,60,35,0.5); font-family:Inter,sans-serif;">
@@ -240,6 +244,43 @@ if analyze_clicked:
             </div>
         </div>
         """, unsafe_allow_html=True)
+
+        st.markdown('<div style="margin-top:1.5rem;"></div>', unsafe_allow_html=True)
+
+        # ── ML SNEAK PEEK: top 2 alternative roles ────────────────
+        try:
+            from modules.role_recommender import get_similar_roles
+            with st.spinner("Finding similar roles..."):
+                recs = get_similar_roles(st.session_state.user_skills, selected_role, top_n=2)
+            if recs:
+                st.markdown("""
+                <div style="font-size:0.65rem; letter-spacing:2px; text-transform:uppercase;
+                            color:rgba(26,60,35,0.35); font-family:Inter,sans-serif;
+                            margin-bottom:0.8rem;">You might also fit</div>
+                """, unsafe_allow_html=True)
+                rec_cols = st.columns(len(recs), gap="medium")
+                for col, rec in zip(rec_cols, recs):
+                    with col:
+                        st.markdown(f"""
+                        <div style="background:rgba(255,255,255,0.4);
+                                    border:1px solid rgba(26,60,35,0.1);
+                                    border-radius:3px; padding:1rem 1.2rem;
+                                    display:flex; justify-content:space-between;
+                                    align-items:center;">
+                            <div>
+                                <div style="font-family:'Fraunces',serif; font-weight:600;
+                                            font-size:0.95rem; color:#1A3C23;">{rec['role']}</div>
+                                <div style="font-size:0.72rem; color:rgba(26,60,35,0.45);
+                                            font-family:Inter,sans-serif; margin-top:0.2rem;">
+                                    {rec['salary']} · {rec['readiness']}
+                                </div>
+                            </div>
+                            <div style="font-family:'Fraunces',serif; font-weight:700;
+                                        font-size:1.4rem; color:#1A3C23;">{rec['match_pct']}%</div>
+                        </div>
+                        """, unsafe_allow_html=True)
+        except Exception:
+            pass  # ML is optional — don't break the page if it fails
 
         st.markdown('<div style="margin-top:1.5rem;"></div>', unsafe_allow_html=True)
         c1, c2 = st.columns(2)
