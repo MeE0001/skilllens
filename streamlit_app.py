@@ -94,7 +94,7 @@ div[data-testid="stRadio"]:first-of-type input[type="radio"] { display: none !im
 
 /* ── INPUTS ── */
 .stTextInput > div > div > input {
-    background: rgba(255,255,255,0.6) !important;
+    background: white !important;
     border: 1px solid rgba(26,60,35,0.2) !important;
     border-radius: 4px !important; color: #1A3C23 !important;
     font-family: 'Inter', sans-serif !important; font-size: 0.88rem !important;
