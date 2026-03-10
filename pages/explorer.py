@@ -199,7 +199,7 @@ with right:
         chips = "".join([
             f'<span style="background:transparent; color:#1A3C23; border:1px solid rgba(26,60,35,0.18); '
             f'padding:0.28rem 0.75rem; border-radius:2px; font-size:0.74rem; font-family:Inter,sans-serif; '
-            f'display:inline-block; margin:0.18rem;">{s} {get_demand_emoji(s)}</span>'
+            f'display:inline-block; margin:0.18rem;">{s}</span>'
             for s in info["required_skills"]
         ])
         st.markdown(f'<div style="line-height:2.6; margin-bottom:1.5rem;">{chips}</div>', unsafe_allow_html=True)
