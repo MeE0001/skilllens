@@ -2,21 +2,21 @@
 
 **Intelligent Skill Gap Analyzer for Tech Roles**
 
-SkillLens helps you understand exactly where you stand against any tech role — and gives you a clear, personalised path to get there.
+SkillLens helps you understand exactly where you stand against any tech role - and gives you a clear, personalised path to get there.
 
 ---
 
 ## What it does
 
-- **Skill Gap Analysis** — Select a target role, tap the skills you have, and instantly see your match score, matched skills, and what you're missing
-- **30+ Tech Roles** — Data Scientist, ML Engineer, DevOps, Frontend, Backend, Blockchain, and more
-- **Learning Roadmap** — Personalised step-by-step roadmap based on your skill gaps
-- **Role Explorer** — Browse and filter all roles by difficulty, salary, and required skills
-- **Role Comparison** — Compare two roles side-by-side
-- **ML Recommendations** — Get role suggestions based on your existing skill profile
-- **Reports** — Save and download your analysis reports as HTML files
-- **Dashboard** — Track your saved reports, trending skills, and demand scores
-- **Auth** — Secure sign up / sign in with Supabase
+- **Skill Gap Analysis** - Select a target role, tap the skills you have, and instantly see your match score, matched skills, and what you're missing
+- **30+ Tech Roles** - Data Scientist, ML Engineer, DevOps, Frontend, Backend, Blockchain, and more
+- **Learning Roadmap** - Personalised step-by-step roadmap based on your skill gaps
+- **Role Explorer** - Browse and filter all roles by difficulty, salary, and required skills
+- **Role Comparison** - Compare two roles side-by-side
+- **ML Recommendations** - Get role suggestions based on your existing skill profile
+- **Reports** - Save and download your analysis reports as HTML files
+- **Dashboard** - Track your saved reports, trending skills, and demand scores
+- **Auth** - Secure sign up / sign in with Supabase
 
 ---
 
