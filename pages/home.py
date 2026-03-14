@@ -45,7 +45,7 @@ with col_right:
     st.markdown('<div style="padding:0 0 0 3rem; border-left:1px solid rgba(26,60,35,0.1);">', unsafe_allow_html=True)
     for val, lbl, has_border in [
         ("50+",  "Tech Roles Covered", True),
-        ("80+",  "Skills Tracked",     True),
+        ("150+",  "Skills Tracked",     True),
         ("Free", "Always & Forever",   False),
     ]:
         bb = "border-bottom:1px solid rgba(26,60,35,0.08);" if has_border else ""
