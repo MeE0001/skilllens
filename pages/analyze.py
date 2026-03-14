@@ -10,6 +10,7 @@ GROUP_ACCENTS = {
     "Databases":      "#52796F",
     "Tools & Viz":    "#40916C",
     "Soft Skills":    "#74C69D",
+    "Security":       "#5C4033",
     "Role-Specific":  "#8B6914",
 }
 
@@ -83,13 +84,15 @@ prefill     = st.session_state.pop("prefill_role", None)
 default_idx = roles.index(prefill) if prefill and prefill in roles else 0
 
 SKILL_GROUPS = {
-    "Languages":      ["Python","JavaScript","TypeScript","R","C","C#","Swift","Kotlin","HTML","CSS"],
-    "Data & ML":      ["SQL","Machine Learning","Deep Learning","Statistics","NLP","PyTorch","TensorFlow","OpenCV","Spark","Airflow"],
-    "Cloud & DevOps": ["AWS","Azure","GCP","Docker","Kubernetes","Terraform","Linux","Git"],
-    "Frameworks":     ["React","Node.js","Flask","FastAPI","APIs"],
-    "Databases":      ["MongoDB","PostgreSQL","Redis","Kafka"],
-    "Tools & Viz":    ["Excel","Tableau","Power BI","Figma"],
-    "Soft Skills":    ["Agile","Scrum","Communication"],
+    "Languages":      ["Python","JavaScript","TypeScript","R","C","C++","C#","Java","Go","Rust","Swift","Kotlin","PHP","Scala","Ruby","MATLAB","Bash","HTML","CSS","Solidity"],
+    "Data & ML":      ["SQL","Machine Learning","Deep Learning","Statistics","NLP","PyTorch","TensorFlow","OpenCV","Spark","Airflow","Scikit-learn","Pandas","NumPy","Hugging Face","LLMs","RAG","MLOps","dbt","ETL","Data Modeling"],
+    "Cloud & DevOps": ["AWS","Azure","GCP","Docker","Kubernetes","Terraform","Linux","Git","CI/CD","Jenkins","Ansible","GitHub Actions","Nginx","Apache","Prometheus","Grafana"],
+    "Frameworks":     ["React","Node.js","Flask","FastAPI","Django","Spring Boot","Vue.js","Angular","Next.js","Express.js","LangChain","Flutter","React Native","GraphQL","REST APIs"],
+    "Databases":      ["MongoDB","PostgreSQL","Redis","Kafka","MySQL","SQLite","Elasticsearch","Cassandra","DynamoDB","Snowflake","BigQuery","Redshift","Firebase","Supabase"],
+    "Tools & Viz":    ["Excel","Tableau","Power BI","Figma","Jira","Postman","GitHub","Notion","Adobe XD","Looker","Metabase","Jupyter","VS Code","Postman API","Canva"],
+    "Soft Skills":    ["Agile","Scrum","Communication","Problem Solving","Critical Thinking","Team Leadership","Stakeholder Management","Project Management","Decision Making","Mentoring"],
+    "Security":       ["Network Security","Penetration Testing","SIEM","Firewalls","Zero Trust","OWASP","Cryptography","IAM","Cloud Security","Vulnerability Management"],
+    "Role-Specific":  ["System Design","Microservices","Algorithms","Data Structures","OOP","Debugging","Code Review","Technical Writing","User Research","Wireframing","Prototyping","A/B Testing","ROS","FPGA","Smart Contracts","Web3.js","Solana","Unreal Engine","Unity","OpenGL"],
 }
 all_categorised = [s for g in SKILL_GROUPS.values() for s in g]
 

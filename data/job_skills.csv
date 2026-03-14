@@ -1,31 +1,60 @@
 role,required_skills,salary,difficulty
-Data Scientist,"R, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Confluence, Bash, C, C#, C++, Git, Go, IBM SPSS Statistics, Jenkins, Linux, SQL, Python, Sas",Rs.80L-Rs.134L,Advanced
-Data Analyst,"R, Hadoop, C++, Ibm Db2, IBM SPSS Statistics, Linux, Python, Sas, Tableau, Unix, Apache Pig, Aptech Systems GAUSS, Cytel StatXact, IBM SPSS Amos, Insightful S-PLUS, Minitab, Muthen & Muthen Mplus, Qlik Tech QlikView",Rs.50L-Rs.92L,Intermediate
-Data Engineer,"R, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Cascading style sheets CSS, Chef, Cisco Webex",Rs.84L-Rs.134L,Advanced
-Machine Learning Engineer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Autodesk AutoCAD, Bash, C, C#, C++",Rs.101L-Rs.151L,Advanced
-AI Engineer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Autodesk AutoCAD, Bash, C, C#, C++",Rs.101L-Rs.160L,Advanced
-Backend Developer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple iOS, Apple macOS, Atlassian Bitbucket, Confluence, Bash, C, C#",Rs.80L-Rs.130L,Intermediate
-Frontend Developer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Atlassian Bitbucket, Confluence, Bash, C, C#, C++",Rs.71L-Rs.122L,Intermediate
-Full Stack Developer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Atlassian Bitbucket, Confluence, Bash, C, C#, C++",Rs.76L-Rs.130L,Advanced
-DevOps Engineer,"R, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Chef, Cisco Webex, Go",Rs.84L-Rs.139L,Advanced
-Cloud Engineer,"R, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Autodesk AutoCAD, Bash, C, C#, C++, Cascading style sheets CSS, Chef",Rs.88L-Rs.139L,Advanced
-Cybersecurity Analyst,"Ajax, Amazon DynamoDB, Amazon Elastic Compute, R, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Chef, Go, Eclipse IDE",Rs.76L-Rs.126L,Advanced
-Software Engineer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple iOS, Apple macOS, Atlassian Bitbucket, Confluence, Bash, C, C#",Rs.84L-Rs.139L,Intermediate
-Mobile Developer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Atlassian Bitbucket, Confluence, Bash, C, C#, C++",Rs.80L-Rs.130L,Intermediate
-Database Administrator,"Ajax, Amazon DynamoDB, Amazon Elastic Compute, R, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Cascading style sheets CSS, Chef, Cisco Webex",Rs.67L-Rs.109L,Intermediate
-Network Engineer,"R, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Cascading style sheets CSS, Chef",Rs.63L-Rs.109L,Intermediate
-Site Reliability Engineer,"R, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Chef, Cisco Webex, Go",Rs.97L-Rs.147L,Advanced
-Product Manager,"R, Adobe InDesign, Adobe Photoshop, Hadoop, Apache Hive, Apple macOS, Asana, Confluence, C, Canva, Cascading style sheets CSS, Facebook, Figma, Git, Go, IBM SPSS Statistics, Intuit QuickBooks, SQL",Rs.80L-Rs.139L,Intermediate
-Business Analyst,"R, Adobe InDesign, Ajax, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Cascading style sheets CSS, Chef, Cisco Webex",Rs.55L-Rs.92L,Beginner
-UX Designer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple iOS, Apple macOS, Confluence, Bash, C, C#, C++",Rs.63L-Rs.113L,Intermediate
-NLP Engineer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Autodesk AutoCAD, Bash, C, C#, C++",Rs.97L-Rs.147L,Advanced
-Computer Vision Engineer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Autodesk AutoCAD, Bash, C, C#, C++",Rs.97L-Rs.147L,Advanced
-Embedded Systems Engineer,"R, Adobe InDesign, Adobe Photoshop, Apache Tomcat, Autodesk AutoCAD, Go, Ibm Db2, Linux, Unix, C, C++, Git, Python, Sas, Cabinet NG CNG-SAFE, Computhink ViewWise, Doc.It DM, EMC Captiva",Rs.71L-Rs.118L,Advanced
-Data Architect,"R, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Bash, C, C#, C++, Cascading style sheets CSS, Chef, Cisco Webex",Rs.92L-Rs.147L,Advanced
-Blockchain Developer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple iOS, Apple macOS, Atlassian Bitbucket, Confluence, Bash, C, C#",Rs.84L-Rs.143L,Advanced
-Game Developer,"R, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Confluence, Bash, C, C#, C++, Cascading style sheets CSS, Chef, Go",Rs.63L-Rs.113L,Intermediate
-IT Support Specialist,"R, Apache Tomcat, Apple macOS, Bash, Linux, SQL, Python, Unix, UNIX Shell, Adobe InDesign, Adobe Photoshop, Ajax, Hadoop, Apache Hive, Kafka, Apache Maven, Apple iOS, Confluence",Rs.34L-Rs.63L,Beginner
-Technical Writer,"R, Adobe InDesign, Adobe Photoshop, Confluence, Autodesk AutoCAD, Cascading style sheets CSS, Epic Systems, Git, PHP, Sas, Adobe Captivate, Blink, Dassault Systemes CATIA, Go, IBM Cognos Business, IBM Notes, JustSystems XMetaL, Objective C",Rs.46L-Rs.80L,Beginner
-Scrum Master,"Autodesk AutoCAD, R, Adobe InDesign, Adobe Photoshop, Ajax, Apache Tomcat, Cascading style sheets CSS, Go, Linux, SQL, PHP, Python, Sas, Unix, Gensuite, IBM Lotus Notes, WebEx WebOffice, Adobe ColdFusion",Rs.71L-Rs.118L,Intermediate
-Quantitative Analyst,"R, Apache Hive, C#, C++, IBM SPSS Statistics, Linux, Python, Sas, Tableau, Unix, Hadoop, Apple macOS, Bash, C, Git, Go, SQL, Scala",Rs.92L-Rs.168L,Advanced
-Prompt Engineer,"R, Adobe InDesign, Adobe Photoshop, Ajax, Amazon DynamoDB, Amazon Elastic Compute, Hadoop, Apache Hive, Kafka, Apache Maven, Apache Tomcat, Apple macOS, Confluence, Autodesk AutoCAD, Bash, C, C#, C++",Rs.76L-Rs.134L,Intermediate
+AI Engineer,"Python, Deep Learning, NLP, PyTorch, TensorFlow, LLMs, APIs, Cloud, Transformers, MLOps, CUDA, Distributed Training, Model Deployment, Fine-tuning, Reinforcement Learning, Hugging Face, Vector Databases, RAG, System Design",Rs.101L-Rs.160L,Advanced
+Audio Engineer,"Pro Tools, Signal Processing, Audio Mixing, Acoustics, DAW, Sound Design, Mastering",Rs.42L-Rs.80L,Intermediate
+Backend Developer,"Python, Node.js, SQL, REST APIs, Docker, PostgreSQL, Redis, System Design, Microservices, Authentication, Message Queues, Caching, Git, Testing, Linux",Rs.80L-Rs.130L,Intermediate
+Bioinformatics Scientist,"Python, R, Genomics, Bioinformatics Tools, Statistics, Machine Learning, SQL, BLAST, Sequence Analysis, Pathway Analysis",Rs.71L-Rs.122L,Advanced
+Bioinformatics Technician,"Python, R, Genomics, Linux, Bioinformatics Tools, Data Processing",Rs.46L-Rs.84L,Intermediate
+Blockchain Developer,"Solidity, Web3.js, Smart Contracts, Ethereum, Python, Cryptography, Hardhat, DeFi, NFTs, Wallet Integration",Rs.84L-Rs.143L,Advanced
+Business Analyst,"SQL, Excel, Requirements Gathering, Process Modeling, Agile, Tableau, Stakeholder Management, Documentation, Use Cases",Rs.55L-Rs.92L,Beginner
+CS Educator,"Python, Algorithms, Data Structures, Curriculum Design, Teaching, Research, Communication",Rs.46L-Rs.84L,Intermediate
+Clinical Data Manager,"SQL, Clinical Trials, SAS, Data Validation, Regulatory Compliance, CDISC, Python",Rs.63L-Rs.113L,Intermediate
+Cloud Engineer,"AWS, Azure, GCP, Terraform, Docker, Kubernetes, Linux, Networking, IAM, Cloud Security, CI/CD, Monitoring, Serverless, Cost Optimization, Ansible, Load Balancing",Rs.88L-Rs.139L,Advanced
+Computer Vision Engineer,"Python, OpenCV, PyTorch, Deep Learning, CNNs, TensorFlow, Image Processing, Object Detection, YOLO, Image Segmentation, GANs, Transfer Learning, CUDA, Data Augmentation",Rs.97L-Rs.147L,Advanced
+Cybersecurity Analyst,"Network Security, Linux, Python, Penetration Testing, SIEM, Firewalls, Risk Assessment, OWASP, Incident Response, Threat Intelligence, Vulnerability Scanning",Rs.76L-Rs.126L,Advanced
+Data Analyst,"SQL, Excel, Python, Tableau, Power BI, Statistics, Data Visualization, Google Analytics, Data Cleaning, Reporting",Rs.50L-Rs.92L,Intermediate
+Data Architect,"SQL, Data Modeling, ETL, AWS, Spark, Data Warehousing, PostgreSQL, Kafka, dbt, Snowflake, Data Governance, Metadata Management",Rs.92L-Rs.147L,Advanced
+Data Engineer,"Python, SQL, Spark, Airflow, AWS, Docker, PostgreSQL, Kafka, dbt, ETL, Snowflake, BigQuery, Data Modeling, Redshift, Pandas",Rs.84L-Rs.134L,Advanced
+Data Scientist,"Python, SQL, Machine Learning, Statistics, TensorFlow, PyTorch, Pandas, Scikit-learn, Data Visualization, Feature Engineering, A/B Testing, Hypothesis Testing, NumPy, Tableau, Storytelling",Rs.80L-Rs.134L,Advanced
+Data Warehouse Engineer,"SQL, Snowflake, Redshift, dbt, ETL, Python, Data Modeling, AWS, Spark, Data Pipelines",Rs.80L-Rs.130L,Intermediate
+Database Administrator,"SQL, PostgreSQL, MongoDB, Redis, Performance Tuning, Backup & Recovery, Linux, Query Optimization, Replication, High Availability",Rs.67L-Rs.109L,Intermediate
+DevOps Engineer,"Docker, Kubernetes, AWS, Terraform, Linux, Git, CI/CD, Monitoring, Ansible, Jenkins, GitHub Actions, Prometheus, Grafana, Bash, Infrastructure as Code",Rs.84L-Rs.139L,Advanced
+Digital Forensics Analyst,"Digital Forensics, Python, Linux, Malware Analysis, Incident Response, Wireshark, SIEM, Reverse Engineering, Volatility, EnCase, Autopsy, Chain of Custody",Rs.67L-Rs.113L,Advanced
+Electrical Engineer,"Circuit Design, MATLAB, C, PCB Design, Signal Processing, Power Systems, Embedded Systems, AutoCAD",Rs.63L-Rs.109L,Intermediate
+Electronics Engineer,"Circuit Design, MATLAB, C, PCB Design, Embedded Systems, VHDL, Signal Processing, Oscilloscope",Rs.63L-Rs.109L,Intermediate
+Embedded Systems Engineer,"C, C++, RTOS, Microcontrollers, Linux, Assembly, Hardware Interfacing, FPGA, IoT, UART, SPI, Debugging, Device Drivers, Bare Metal Programming",Rs.71L-Rs.118L,Advanced
+Engineering Manager,"Leadership, Agile, System Design, Roadmapping, Hiring, Code Review, Stakeholder Management, OKRs, Performance Reviews, Technical Strategy",Rs.126L-Rs.210L,Advanced
+Frontend Developer,"JavaScript, React, TypeScript, HTML, CSS, Figma, Webpack, Testing, Accessibility, Performance Optimization, REST APIs, Git, Next.js, State Management",Rs.71L-Rs.122L,Intermediate
+Full Stack Developer,"JavaScript, React, Node.js, Python, SQL, Docker, REST APIs, Git, PostgreSQL, TypeScript, Next.js, MongoDB, Redis, CI/CD, System Design, Authentication, Testing",Rs.76L-Rs.130L,Advanced
+GIS Specialist,"ArcGIS, QGIS, Python, SQL, Remote Sensing, Cartography, Spatial Analysis",Rs.50L-Rs.92L,Intermediate
+Game Developer,"C++, Unity, Unreal Engine, C#, 3D Math, Physics Simulation, OpenGL, Shaders, Game Design, Audio Integration",Rs.63L-Rs.113L,Intermediate
+Hardware Engineer,"C, C++, VHDL, FPGA, PCB Design, Embedded Systems, Signal Processing, CAD, Circuit Analysis",Rs.63L-Rs.109L,Advanced
+Health Informatics Specialist,"HL7, FHIR, SQL, EHR Systems, Python, Healthcare Data, Interoperability",Rs.67L-Rs.118L,Intermediate
+IT Project Manager,"Project Management, Agile, Scrum, JIRA, Stakeholder Management, Risk Management, Budgeting, Resource Planning",Rs.76L-Rs.130L,Intermediate
+IT Support Specialist,"Windows, Linux, Networking, Troubleshooting, Active Directory, Help Desk, Hardware",Rs.34L-Rs.63L,Beginner
+Intelligence Analyst,"Data Analysis, Python, OSINT, SQL, Critical Thinking, Geopolitics, Visualization, Report Writing",Rs.67L-Rs.113L,Intermediate
+Machine Learning Engineer,"Python, TensorFlow, PyTorch, Machine Learning, Deep Learning, MLOps, Docker, AWS, Feature Engineering, Model Deployment, Scikit-learn, Kubernetes, Spark, Airflow, Experiment Tracking",Rs.101L-Rs.151L,Advanced
+Mechatronics Engineer,"C, C++, Control Systems, Electronics, CAD, MATLAB, Embedded Systems, PLC, Sensors",Rs.63L-Rs.109L,Advanced
+Media Technology Manager,"Media Systems, Leadership, Broadcasting, Video Production, Project Management, Budgeting",Rs.63L-Rs.109L,Intermediate
+Microsystems Engineer,"MEMS, Semiconductor, MATLAB, Python, Nanotechnology, Signal Processing, CAD",Rs.76L-Rs.130L,Advanced
+Mobile Developer,"Swift, Kotlin, React Native, Flutter, Firebase, REST APIs, Git, App Store Deployment, Push Notifications, SQLite, State Management, Unit Testing",Rs.80L-Rs.130L,Intermediate
+NLP Engineer,"Python, NLP, PyTorch, TensorFlow, LLMs, Hugging Face, Deep Learning, Text Processing, BERT, SpaCy, Transformers, Fine-tuning, Named Entity Recognition, Sentiment Analysis",Rs.97L-Rs.147L,Advanced
+Nanosystems Engineer,"Nanofabrication, Materials Science, Python, MATLAB, Characterization, Simulation",Rs.76L-Rs.130L,Advanced
+Network Architect,"Networking, Cisco, TCP/IP, Cloud Networking, Security, SD-WAN, Firewalls, BGP, Network Design",Rs.84L-Rs.134L,Advanced
+Network Engineer,"Networking, Linux, Cisco, Firewalls, TCP/IP, VPN, Network Security, Monitoring, Routing, Switching",Rs.63L-Rs.109L,Intermediate
+Photonics Engineer,"Optics, Laser Systems, Python, MATLAB, Signal Processing, Fiber Optics, Photonics Design",Rs.76L-Rs.130L,Advanced
+Product Manager,"Agile, Scrum, Roadmapping, Stakeholder Management, Data Analysis, User Research, Jira, A/B Testing, PRDs, OKRs, Competitive Analysis, Prioritization, Metrics",Rs.80L-Rs.139L,Intermediate
+Prompt Engineer,"LLMs, Python, Prompt Design, APIs, NLP, Fine-tuning, LangChain, RAG, Vector Databases, Chain-of-Thought, Few-shot Learning, OpenAI API",Rs.76L-Rs.134L,Intermediate
+QA Engineer,"Test Automation, Selenium, Python, API Testing, Jest, CI/CD, Bug Tracking, Performance Testing, Manual Testing, Test Planning",Rs.50L-Rs.92L,Intermediate
+Quantitative Analyst,"Python, R, Statistics, Machine Learning, Financial Modeling, SQL, Monte Carlo, Risk Modeling, Derivatives, Stochastic Calculus",Rs.92L-Rs.168L,Advanced
+Remote Sensing Specialist,"Remote Sensing, GIS, Python, Image Processing, Satellite Data, R, Machine Learning",Rs.55L-Rs.97L,Intermediate
+Robotics Engineer,"Python, C++, ROS, Control Systems, Computer Vision, Machine Learning, Embedded Systems, Sensors, Path Planning, Simulation",Rs.76L-Rs.130L,Advanced
+Robotics Technician,"C++, ROS, Electrical Systems, Pneumatics, PLC, Troubleshooting, CAD",Rs.42L-Rs.76L,Intermediate
+Scrum Master,"Scrum, Agile, Jira, Facilitation, Stakeholder Management, Kanban, Coaching, Sprint Planning, Retrospectives, Backlog Grooming",Rs.71L-Rs.118L,Intermediate
+Security Engineer,"Network Security, Linux, Python, SIEM, Firewalls, Cloud Security, Zero Trust, Vulnerability Management, Penetration Testing, IAM",Rs.84L-Rs.143L,Advanced
+Site Reliability Engineer,"Linux, Docker, Kubernetes, Python, Monitoring, AWS, CI/CD, Incident Management, SLOs, Prometheus, Grafana, Chaos Engineering, On-call, Postmortem",Rs.97L-Rs.147L,Advanced
+Software Engineer,"Python, Java, Data Structures, Algorithms, Git, SQL, REST APIs, System Design, Code Review, Testing, OOP, Design Patterns",Rs.84L-Rs.139L,Intermediate
+Solutions Architect,"AWS, System Design, Microservices, REST APIs, Docker, Cloud, Security, Networking, Cost Optimization, Solution Design, Stakeholder Management",Rs.101L-Rs.168L,Advanced
+Technical Writer,"Technical Writing, Documentation, Markdown, APIs, Git, XML, Content Management, Editing",Rs.46L-Rs.80L,Beginner
+Telecom Engineer,"Networking, 5G, LTE, TCP/IP, Linux, RF Engineering, VoIP, SDN",Rs.63L-Rs.109L,Intermediate
+UX Designer,"Figma, User Research, Prototyping, Wireframing, Usability Testing, Adobe XD, Design Systems, Accessibility, Interaction Design, Information Architecture, A/B Testing, User Personas, Journey Mapping",Rs.63L-Rs.113L,Intermediate
+Web Administrator,"Linux, Apache, Nginx, DNS, SSL, Cloud, Security, Monitoring, Scripting",Rs.46L-Rs.84L,Beginner

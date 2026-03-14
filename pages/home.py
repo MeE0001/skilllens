@@ -44,7 +44,7 @@ with col_left:
 with col_right:
     st.markdown('<div style="padding:0 0 0 3rem; border-left:1px solid rgba(26,60,35,0.1);">', unsafe_allow_html=True)
     for val, lbl, has_border in [
-        ("30+",  "Tech Roles Covered", True),
+        ("50+",  "Tech Roles Covered", True),
         ("80+",  "Skills Tracked",     True),
         ("Free", "Always & Forever",   False),
     ]:
@@ -216,7 +216,7 @@ st.markdown('<div style="height:1px; background:rgba(26,60,35,0.08); margin:3.5r
 st.markdown('<div style="font-size:0.68rem; font-weight:500; letter-spacing:3px; text-transform:uppercase; color:rgba(26,60,35,0.35); margin-bottom:2.5rem; font-family:Inter,sans-serif;">The Process</div>', unsafe_allow_html=True)
 
 steps = [
-    ("Pick a role",      "Choose from 30+ tech roles including Data, Engineering, and Product."),
+    ("Pick a role",      "Choose from 50+ tech roles including Data, Engineering, and Product."),
     ("Add your skills",  "Click to select or type in your current skill set."),
     ("See the gap",      "Get a precise match score and breakdown of what's missing."),
     ("Follow the plan",  "A curated, prioritized roadmap to bridge every gap."),
