@@ -245,7 +245,7 @@ st.markdown('<div style="font-size:0.68rem; font-weight:500; letter-spacing:3px;
 testimonials = [
     ("Priya S.",  "Data Analyst → Data Scientist",  "I had no idea I was just 2 skills away from qualifying for senior DS roles. SkillLens showed me exactly what to learn next."),
     ("Arjun M.",  "Fresher → Backend Developer",    "The roadmap was more useful than any YouTube playlist. I got my first dev job 4 months after using it."),
-    ("Sneha R.",  "MBA → Product Manager",           "Switching careers felt overwhelming until I saw my actual skill match. 68% on day one — way better than I expected."),
+    ("Sneha R.",  "MBA → Product Manager",           "Switching careers felt overwhelming until I saw my actual skill match. 68% on day one, way better than I expected."),
     ("Rahul T.",  "Student → ML Engineer",           "The market demand scores helped me prioritize. Didn't waste time on low-value certifications."),
 ]
 
